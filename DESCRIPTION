@@ -1,0 +1,17 @@
+Package: SA23204191
+Type: Package
+Title: Quantile Regression Neural Networks: A Bayesian Approach
+Version: 1.0
+Date: 2023-12-02
+Author: Zixiao Ma
+Maintainer: Zixiao Ma <mazixiao@ustc.mail.edu.cn>
+Description:Rcpp version of Gibbs sampler for multivariate normal distribution and an implementation of Bayesian Quantile Regression Neural Networks model.
+License: GPL (>= 2)
+Imports: Rcpp, RcppArmadillo, coda, stats, actuar, GIGrvg
+Suggests: knitr, rmarkdown 
+LinkingTo: Rcpp,RcppArmadillo
+RoxygenNote: 7.2.3
+Encoding: UTF-8
+VignetteBuilder: knitr
+URL: http://github.com/MZX4191/SA23204191
+BugReports: http://github.com/MZX4191/SA23204191/issues
